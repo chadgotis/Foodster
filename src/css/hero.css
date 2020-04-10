@@ -1,0 +1,30 @@
+.hero {
+    background: url('../Assets/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 350px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50px;
+    display: flex;
+}
+.quote {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+.quote h1 {
+    font-weight: medium;
+    font-size: 48px;
+    color: #707070;
+}
+.quote p {
+    margin-left: auto;
+    font-size: 1.5rem;
+    color: #707070;
+}
