@@ -1,4 +1,11 @@
 .recipelist {
-    padding: 1rem;
+    padding-left: 1rem;
     padding-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+}
+.recipelist > div {
+    margin: 5px;
+    margin-top: 0;
 }

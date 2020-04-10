@@ -12,7 +12,7 @@ const content = (props) => {
                     <Quote qod={props.qod} author={props.author}/>
                 </div>
                 <div className='recipelist'>
-                    <RecipeList />
+                    <RecipeList recipe={props.recipe} />
                 </div>
             </main>
         </div>
