@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Nav from './Components/Nav';
 import Hero from './Components/Hero';
 import Content from './Components/Content';
+import Footer from './Components/Footer';
 // import {quote} from './Components/List';
 // import {foodlist} from './Components/foodlist';
 import './App.css';
@@ -34,6 +35,7 @@ class App extends Component {
         <Nav/>
         <Hero />
           <Content qod={quo.content} author={quo.author}/>
+        <Footer />
       </div>
     );
   }

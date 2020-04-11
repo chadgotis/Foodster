@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     margin-top: 0;
     flex-direction: column;
+    color: #707070;
 }
 .recipelist > div {
     margin: 5px;
