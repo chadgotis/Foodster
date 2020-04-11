@@ -3,17 +3,19 @@
     /* background: #707070; */
     padding: .5rem;
     display: flex;
+    cursor: pointer;
     flex-direction: column;
 }
 .recipe > img {
     width: 250px;
-    height:150px;
+    height:200px;
     border-radius: 12px;
     text-align: center;
     display: block;
 }
 .recipe h2 {
     text-align: center;
+    margin: 0;
 }
 .recipe p {
     margin-top: 0;
@@ -21,4 +23,12 @@
 .recipe .foodstyle {
     background-size: cover;
     background-position: center center;
+}
+.recipe button {
+    text-align: center;
+    width: 40%;
+    font-size: 12px;
+    align-self: flex-end;
+    border: none;
+    background-color: white
 }

@@ -6,6 +6,7 @@ import Recipe from './Recipe';
 const Recipelist = (props) => {
 
     const [recipes, setRecipes] = useState([]);
+
     useEffect(() => {
         GetRecipe();
     },[])
@@ -20,7 +21,9 @@ const Recipelist = (props) => {
     return(
         <div className='recipelist'>
             {recipes.map(recipe => (
-                <Recipe key={recipe.recipe.label} title={recipe.recipe.label} pic={recipe.recipe.image} desc={recipe.recipe.source}/>
+                <div>
+                <Recipe key={recipe.recipe.label} ing={recipe.recipe.ingredients} title={recipe.recipe.label} pic={recipe.recipe.image} desc={recipe.recipe.source}/>
+                </div>
             ))}
         </div>
     );

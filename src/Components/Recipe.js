@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../css/recipe.css';
+import Modal from 'react-modal';
 
 const Recipe = (props) => {
+
+    const [isOpen,setisOpen] = useState(false);
+
     const foodImg = {
         backgroundImage: `url(${props.pic})`,
         width:'250px',
@@ -9,13 +13,18 @@ const Recipe = (props) => {
         borderRadius:'12px'
     }
     return(
-        <div className="recipe">
-            <div className='foodstyle' style={foodImg}></div>
-            <h2>{props.title}</h2>
-            <p>{props.desc}</p>
-            <ul>
-
-            </ul>
+        <div>
+            <Modal isOpen={isOpen} onRequestClose={() => setisOpen(false)}>
+                <ul className="ingredients">
+                    {props.ing.map(dients => (
+                        <li>{dients.text}</li>
+                    ))}
+                </ul>
+            </Modal>
+            <div className="recipe" onClick={() => setisOpen(true)}>
+                <div className='foodstyle' style={foodImg}></div>
+                <h2>{props.title}</h2>
+            </div>
         </div>
     );
 }
