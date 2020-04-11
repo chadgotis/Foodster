@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import '../css/recipelist.css';
 // import SearchBox from './Searchbox.js';
 import Recipe from './Recipe';
+import SearchBox from './SearchBox';
 
 const Recipelist = (props) => {
 
@@ -20,11 +21,14 @@ const Recipelist = (props) => {
       }
     return(
         <div className='recipelist'>
-            {recipes.map(recipe => (
-                <div>
-                <Recipe key={recipe.recipe.label} ing={recipe.recipe.ingredients} title={recipe.recipe.label} pic={recipe.recipe.image} desc={recipe.recipe.source}/>
-                </div>
-            ))}
+            <SearchBox/>
+            <div className="rec">
+                {recipes.map(recipe => (
+                    <div>
+                    <Recipe key={recipe.recipe.label} ing={recipe.recipe.ingredients} title={recipe.recipe.label} pic={recipe.recipe.image} desc={recipe.recipe.source}/>
+                    </div>
+                ))}
+            </div>
         </div>
     );
 }

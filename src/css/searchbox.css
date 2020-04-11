@@ -1,0 +1,36 @@
+.search {
+    padding-left: .5rem;
+}
+.searchbar {
+    border: 2px solid #077971;
+    border-radius: 30px;
+    height: 38px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    color: #3D3D3C;
+    font-weight: 400;
+    padding-left: 15px;
+    padding-right: 20px;
+  }
+  .searchbtn {
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 18px;
+    color: #01A093;
+    position: relative;
+    right: 44px;
+    top: 1px;
+    cursor: pointer;
+  }
+  input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}

@@ -4,8 +4,15 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 0;
+    flex-direction: column;
 }
 .recipelist > div {
     margin: 5px;
+    margin-top: 0;
+}
+.rec {
+    padding-top: 0;
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 0;
 }

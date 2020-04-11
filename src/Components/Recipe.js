@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import '../css/recipe.css';
 import Modal from 'react-modal';
 
+Modal.setAppElement('#root');
+
 const Recipe = (props) => {
 
     const [isOpen,setisOpen] = useState(false);
@@ -14,8 +16,24 @@ const Recipe = (props) => {
     }
     return(
         <div>
-            <Modal isOpen={isOpen} onRequestClose={() => setisOpen(false)}>
+            <Modal 
+                style={{
+                    content : {
+                        top                   : '50%',
+                        left                  : '50%',
+                        right                 : 'auto',
+                        bottom                : 'auto',
+                        marginRight           : '-50%',
+                        transform             : 'translate(-50%, -50%)',
+                        maxHeight             : '500px',
+                        maxWidth              : '700px',
+                        textAlign             : 'center'
+                      }
+                }}
+                isOpen={isOpen} onRequestClose={() => setisOpen(false)}>
                 <ul className="ingredients">
+                    <img src={props.pic} alt={props.pic}/>
+                    <h2>{props.title}</h2>
                     {props.ing.map(dients => (
                         <li>{dients.text}</li>
                     ))}
