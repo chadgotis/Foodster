@@ -1,5 +1,11 @@
 .search {
     padding-left: .5rem;
+    display: flex;
+}
+.search h2 {
+  margin: 0;
+  align-self: center;
+  margin-left: auto;
 }
 .searchbar {
     border: 2px solid #985D59;

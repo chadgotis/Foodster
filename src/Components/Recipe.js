@@ -29,13 +29,14 @@ const Recipe = (props) => {
                         maxWidth              : '700px',
                         textAlign             : 'center'
                       }
+
                 }}
                 isOpen={isOpen} onRequestClose={() => setisOpen(false)}>
                 <ul className="ingredients">
                     <img src={props.pic} alt={props.pic}/>
                     <h2>{props.title}</h2>
                     {props.ing.map(dients => (
-                        <li>{dients.text}</li>
+                        <li key={dients.text}>{dients.text}</li>
                     ))}
                 </ul>
             </Modal>

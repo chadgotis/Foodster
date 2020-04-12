@@ -5,6 +5,7 @@ import '../css/content.css';
 
 
 const content = (props) => {
+    // let k = 1;
     return(
         <div>
             <main>
