@@ -38,7 +38,6 @@ const Recipelist = (props) => {
 
     return(
         <div className='recipelist'>
-            <h2 className='sample'> helloooooooooo</h2>
             <SearchBox searchRes= {isSearch} change={updateSearch} submit={getSearch}/>
             <div className="rec">
                 {recipes.map(recipe => (
