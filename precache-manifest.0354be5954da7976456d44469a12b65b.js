@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "21f978ed7548f14a31925b5a0a56ce81",
+    "revision": "8c29a6a4bdcffa37a8d1b31f44cc32df",
     "url": "/Foodster/index.html"
   },
   {
-    "revision": "1e37fe096bdfaf922003",
+    "revision": "b2619cab443045aa397c",
     "url": "/Foodster/static/css/main.5fa2ec03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Foodster/static/js/2.dcfb351f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1e37fe096bdfaf922003",
-    "url": "/Foodster/static/js/main.50ff0155.chunk.js"
+    "revision": "b2619cab443045aa397c",
+    "url": "/Foodster/static/js/main.d9a6484a.chunk.js"
   },
   {
     "revision": "171840c27bcf5df2a55b",

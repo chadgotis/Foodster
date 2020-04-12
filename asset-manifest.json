@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Foodster/static/css/main.5fa2ec03.chunk.css",
-    "main.js": "/Foodster/static/js/main.50ff0155.chunk.js",
-    "main.js.map": "/Foodster/static/js/main.50ff0155.chunk.js.map",
+    "main.js": "/Foodster/static/js/main.d9a6484a.chunk.js",
+    "main.js.map": "/Foodster/static/js/main.d9a6484a.chunk.js.map",
     "runtime-main.js": "/Foodster/static/js/runtime-main.f6deeea7.js",
     "runtime-main.js.map": "/Foodster/static/js/runtime-main.f6deeea7.js.map",
     "static/js/2.dcfb351f.chunk.js": "/Foodster/static/js/2.dcfb351f.chunk.js",
     "static/js/2.dcfb351f.chunk.js.map": "/Foodster/static/js/2.dcfb351f.chunk.js.map",
     "index.html": "/Foodster/index.html",
-    "precache-manifest.8e31432136743f2c52c8a5a742587dec.js": "/Foodster/precache-manifest.8e31432136743f2c52c8a5a742587dec.js",
+    "precache-manifest.0354be5954da7976456d44469a12b65b.js": "/Foodster/precache-manifest.0354be5954da7976456d44469a12b65b.js",
     "service-worker.js": "/Foodster/service-worker.js",
     "static/css/main.5fa2ec03.chunk.css.map": "/Foodster/static/css/main.5fa2ec03.chunk.css.map",
     "static/js/2.dcfb351f.chunk.js.LICENSE.txt": "/Foodster/static/js/2.dcfb351f.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.f6deeea7.js",
     "static/js/2.dcfb351f.chunk.js",
     "static/css/main.5fa2ec03.chunk.css",
-    "static/js/main.50ff0155.chunk.js"
+    "static/js/main.d9a6484a.chunk.js"
   ]
 }
