@@ -27,7 +27,6 @@ class App extends Component {
     GetQuote();
   }
 
-
   render() {
     const quo = this.state.quotes;
     return(

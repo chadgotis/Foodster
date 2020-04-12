@@ -8,6 +8,10 @@
     text-decoration: none;
     color: #707070;
 }
+/* .navigation a:hover {
+    font-size: 1.2rem;
+    color: green;
+} */
 .navigation .logo {
     align-self: center;
     font-size: 1.5rem;
